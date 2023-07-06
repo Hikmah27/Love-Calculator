@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url(Images/Bg\ Img.webp); background-size: cover; background-repeat: no-repeat;" class="heroimage">
+    <div class="text-light text-center mt-3">
+        <h1>LOVE CALCULATOR</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="text-center">
+                    <img src="Images/male.png"  alt="" class="rounded-circle img-fluid">
+                </div>
+                <div class="form-floating mt-3">
+                    <input type="text" class="form-control" id="yourName">
+                    <label for="Enter your name" class="text-center fw-bolder">😍Male's Name😍</label>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="text-center">
+                    <img src="Images/female.jfif" alt="" class="rounded-circle img-fluid">
+                </div>
+                <div class="form-floating mt-3">
+                    <input type="text" class="form-control" id="loversName">
+                    <label for="Enter your Lover's name" class="text-center fw-bolder">😍Female's Name😍</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <button class="btn btn-danger ps-4 pe-4 pt-3 pb-3 fs-4 text-center mt-5 text-black fw-bold fs-6" onclick="calculate()">🥰💗CALCULATE💗🥰</button>
+    </div>
+    <div class="bg-light text-center p-4 mt-3 mx-auto w-50 rounded-5" id="display">
+        <h1 class="fs-6 fw-bolder">Your love result will be displayed here</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
